@@ -40,7 +40,7 @@ afterEvaluate {
         publications {
             myPublicationName(MavenPublication){
                 groupId = 'com.github.greatdushal198'
-                artifactId = 'wigzo_android_sdk'
+                artifactId = 'testing'
                 version = '1.0.0'
             }
         }
