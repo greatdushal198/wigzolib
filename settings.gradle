@@ -2,16 +2,17 @@ pluginManagement {
     repositories {
         google()
         mavenCentral()
-        jcenter()
         gradlePluginPortal()
+        jcenter()
     }
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
-        jcenter()
         mavenCentral()
+     //  gradPluginPortal()
+        jcenter()
     }
 }
 rootProject.name = "AndroidSDK"
