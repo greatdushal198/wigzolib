@@ -33,14 +33,3 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
-afterEvaluate {
-    publishing {
-        publications {
-            myPublicationName(MavenPublication){
-                groupId = 'com.github.greatdushal198'
-                artifactId = 'wigzo_android_sdk'
-                version = '1.0.0'
-            }
-        }
-    }
-}
