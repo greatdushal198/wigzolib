@@ -16,5 +16,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "AndroidSDK"
-include ':app'
+//include ':app'
 include ':wigzo_android_sdk'
