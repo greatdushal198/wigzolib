@@ -15,6 +15,6 @@ dependencyResolutionManagement {
         jcenter()
     }
 }
-rootProject.name = "AndroidSDK"
+rootProject.name = "androidsdk"
 //include ':app'
 include ':wigzo_android_sdk'
